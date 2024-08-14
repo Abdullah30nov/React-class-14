@@ -46,7 +46,7 @@ export default function BasicTable({data}) {
               <TableCell align="right">{row.username}</TableCell>
               <TableCell align="right">{row.email}</TableCell>
               <TableCell align="right">{row.phone}</TableCell>
-              <TableCell align="right" sx={{marginRight:'51px'}}>
+              <TableCell align="right" sx={{marginRight:'50px'}}>
                 <DeleteIcon sx={{marginRight:"20px",}}/>
                 <EditIcon/>
               </TableCell>
